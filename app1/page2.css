@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  font-family: 'Raleway';
+  box-sizing: border-box;
+}
+.viewport {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.viewport .container {
+  max-width: min(90%, 1280px);
+  margin: 0 auto 4rem;
+}
+.viewport .row2 {
+  overflow: hidden;
+}
+.viewport .row2 .container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  margin-bottom: 0;
+  border: 2px solid #9d27d0;
+  border-radius: 1rem;
+}
+.viewport .row2 .container > * {
+  padding: 1.5rem;
+}
+.viewport .row2 .container .row1 {
+  overflow: auto;
+}
+.viewport .row2 .container .row1 > h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.viewport .row2 .container .row1 .message {
+  margin-bottom: 3rem;
+  max-width: min(640px, 100%);
+  border: 2px solid #9d27d0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.viewport .row2 .container .row1 .message h2 {
+  margin-bottom: 1rem;
+}
+.viewport .row2 .container .row1 .message p {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+.viewport .row2 .container .row1 .message h3 {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #aaa;
+}
+.viewport .row2 .container .row2 {
+  border-top: 2px solid #9d27d0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+}
+.viewport .row2 .container .row2 textarea {
+  background-color: transparent;
+  color: #fff;
+  resize: none;
+  max-height: 5rem;
+  font-size: 1rem;
+  padding: 0.75rem;
+  line-height: 1.5rem;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+}
+.viewport .row2 .container .row2 textarea::placeholder {
+  color: #aaa;
+}
+.viewport .row2 .container .row2 textarea:focus {
+  border-bottom: 2px solid #9d27d0;
+}
+.viewport .row2 .container .row2 button {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid #9d27d0;
+  color: #fff;
+  border-radius: 1rem;
+  font-weight: 800;
+  height: fit-content;
+  align-self: center;
+}
+.viewport .row2 .container .row2 button:hover {
+  background-color: #9d27d0;
+}
+.viewport .row2 .container .row2 button:disabled {
+  background-color: #222;
+  border: 0;
+}
+.viewport .row3 .container {
+  margin-top: 2rem;
+}

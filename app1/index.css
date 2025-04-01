@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  font-family: 'Raleway';
+  box-sizing: border-box;
+}
+.viewport {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.viewport .container {
+  max-width: min(90%, 1280px);
+  margin: 0 auto 4rem;
+}
+.viewport .row2 {
+  overflow: hidden;
+}
+.viewport .row2 .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewport .row2 .container .form {
+  width: fit-content;
+  border: 2px solid #9d27d0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.viewport .row2 .container .form .head {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.viewport .row2 .container .form input {
+  padding: 0.5rem;
+  background-color: transparent;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  outline: 0;
+  color: #fff;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+}
+.viewport .row2 .container .form input::placeholder {
+  color: #aaa;
+}
+.viewport .row2 .container .form input:focus {
+  border-bottom: 2px solid #9d27d0;
+}
+.viewport .row2 .container .form .info {
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+.viewport .row2 .container .form .info img {
+  vertical-align: middle;
+  width: 30px;
+  margin-right: 0.5rem;
+}
+.viewport .row2 .container .form button {
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid #9d27d0;
+  border-radius: 1rem;
+  color: #fff;
+}
+.viewport .row2 .container .form button:hover {
+  background-color: #9d27d0;
+}
+.viewport .row2 .container .form button:disabled {
+  background-color: #222;
+  border: 0;
+}
+.viewport .row3 .container {
+  margin-top: 2rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  font-family: 'Raleway';
+  box-sizing: border-box;
+}
+.viewport {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.viewport .container {
+  max-width: min(90%, 1280px);
+  margin: 0 auto 4rem;
+}
+.viewport .row2 {
+  overflow: hidden;
+}
+.viewport .row2 .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewport .row2 .container .form {
+  width: fit-content;
+  border: 2px solid #9d27d0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.viewport .row2 .container .form .head {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.viewport .row2 .container .form input {
+  padding: 0.5rem;
+  background-color: transparent;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  outline: 0;
+  color: #fff;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+}
+.viewport .row2 .container .form input::placeholder {
+  color: #aaa;
+}
+.viewport .row2 .container .form input:focus {
+  border-bottom: 2px solid #9d27d0;
+}
+.viewport .row2 .container .form .info {
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+.viewport .row2 .container .form .info img {
+  vertical-align: middle;
+  width: 30px;
+  margin-right: 0.5rem;
+}
+.viewport .row2 .container .form button {
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid #9d27d0;
+  border-radius: 1rem;
+  color: #fff;
+}
+.viewport .row2 .container .form button:hover {
+  background-color: #9d27d0;
+}
+.viewport .row2 .container .form button:disabled {
+  background-color: #222;
+  border: 0;
+}
+.viewport .row3 .container {
+  margin-top: 2rem;
+}

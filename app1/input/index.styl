@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+primary = #9d27d0
+secondary = #f0c336
+*
+  margin 0
+  font-family 'Raleway'
+  box-sizing border-box
+.viewport
+  height 100vh
+  background-color black
+  color white
+  padding-top 2rem
+  display grid
+  grid-template-rows auto 1fr auto
+  .container
+    max-width unquote('min(90%, 1280px)')
+    margin 0 auto 4rem
+  .row2
+    overflow: hidden
+    .container
+      height 100%
+      display: flex
+      justify-content center
+      align-items center
+      .form 
+        width fit-content
+        border 2px solid primary
+        padding 1rem
+        border-radius 1rem
+        .head
+          font-size 1.5rem
+          margin-bottom 2rem
+        input
+          padding 0.5rem
+          background-color transparent
+          width 100%
+          border 2px solid transparent
+          border-radius 1rem
+          outline 0
+          color #fff
+          margin-bottom 4rem
+          font-size 1rem
+          &::placeholder
+            color #aaa
+          &:focus
+            border-bottom 2px solid primary
+        .info
+          margin-bottom 1.5rem
+          font-weight 300
+          img
+            vertical-align middle
+            width 30px
+            margin-right 0.5rem
+        button
+          font-weight 700
+          padding 1rem 2rem
+          background-color transparent
+          border 2px solid primary
+          border-radius 1rem
+          color #fff
+          &:hover
+            background-color primary
+          &:disabled
+            background-color #222
+            border 0
+  .row3
+    .container
+      margin-top 2rem

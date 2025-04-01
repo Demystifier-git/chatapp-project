@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+primary = #9d27d0
+*
+  margin 0
+  font-family 'Raleway'
+  box-sizing border-box
+.viewport
+  height 100vh
+  background-color black
+  color white
+  padding-top 2rem
+  display grid
+  grid-template-rows auto 1fr auto
+  .container
+    max-width unquote('min(90%, 1280px)')
+    margin 0 auto 4rem
+  .row2
+    overflow: hidden
+    .container
+      display grid
+      grid-template-rows 1fr auto
+      height 100%
+      margin-bottom 0
+      border 2px solid primary
+      border-radius 1rem
+      > *
+        padding 1.5rem
+      .row1
+        overflow: auto
+        > h3
+          text-align center
+          margin-bottom 2rem
+        .message
+          margin-bottom 3rem
+          max-width unquote('min(640px, 100%)')
+          border 2px solid primary
+          border-radius 1rem
+          padding 1rem
+          h2
+            margin-bottom 1rem
+          p
+            line-height 1.5rem
+            margin-bottom 0.5rem
+            word-wrap break-word
+          h3
+            text-align right
+            font-weight 400
+            font-size 1rem
+            color #aaa
+      .row2
+        border-top 2px solid primary
+        display grid
+        grid-template-columns 1fr auto
+        gap 2rem
+        textarea
+          background-color transparent
+          color #fff
+          resize none
+          max-height 5rem
+          font-size 1rem
+          padding .75rem
+          line-height 1.5rem
+          border 0
+          outline 0
+          border-radius 0.5rem
+          &::placeholder
+            color #aaa
+          &:focus
+            border-bottom 2px solid primary
+        button
+          padding 1rem 2rem
+          background-color transparent
+          border 2px solid primary
+          color #fff
+          border-radius 1rem
+          font-weight 800
+          height fit-content
+          align-self center
+          &:hover
+            background-color primary
+          &:disabled
+            background-color #222
+            border 0
+  .row3
+    .container
+      margin-top 2rem
