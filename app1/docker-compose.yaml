@@ -4,7 +4,7 @@ services:
   mysql:
     image: mysql:latest
     environment:
-      MYSQL_HOST_IP: 44.202.135.19.10
+      MYSQL_HOST_IP: 107.20.25.120:80
     ports:
      "3306:3306"  
 
