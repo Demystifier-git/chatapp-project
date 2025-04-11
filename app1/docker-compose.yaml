@@ -17,13 +17,14 @@ php:
   depends_on:
     mysql
 
-nginx:
-  image: nginx:latest
-  ports:
-    "80:80"
-  volumes:
-    ./nginx.conf:/etc/nginx/
-    nginx.conf:ro
-    ./www:/usr/share/nginx/html:ro
-  depends_on:
-    php   
+apache:
+    image: httpd:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./apache2.conf:/usr/local/apache2/conf/httpd.conf
+    depends_on:
+      - php
+
+volumes:
+  mysql-data:
